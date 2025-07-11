@@ -17,7 +17,7 @@ services:
       - proxy
     labels:
       - traefik.enable=true
-      - traefik.http.routers.glance.rule=Host(`glance.lab.son`) || Host(`lab.son`)
+      - traefik.http.routers.glance.rule=Host(`lab.son`)
       - traefik.http.routers.glance.entrypoints=websecure
       - traefik.http.routers.glance.tls=true
 networks:
