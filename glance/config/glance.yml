@@ -13,7 +13,7 @@ pages:
               - title: Dockge
                 url: https://dockge.lab.son
                 check-url: http://dockge:5001
-                icon: si:dockge
+                icon: si:uptimekuma
 
           - type: monitor
             cache: 5m
