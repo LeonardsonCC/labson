@@ -10,12 +10,22 @@ pages:
             cache: 5m
             title: Services
             sites:
+              - title: Dockge
+                url: https://dockge.lab.son
+                check-url: http://dockge:5001
+                icon: si:dockge
+
+          - type: monitor
+            cache: 5m
+            title: External
+            sites:
               - title: UpTime
                 url: https://uptime.leonardson.com.br
                 icon: si:uptimekuma
               - title: Dinheiros
                 url: https://dinheiros.leonardson.com.br
                 icon: mdi:cash
+
 
 
       - size: full
